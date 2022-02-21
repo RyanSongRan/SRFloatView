@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SRFloatView_Example' do
+  pod 'SRFloatView', :path => '../'
+
+  target 'SRFloatView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
