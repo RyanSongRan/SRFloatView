@@ -16,8 +16,9 @@
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		2F8D976439E496670DA3072CCCB83A8D /* SRFloatView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB28CED690FE5D307C7E7AABB678C4B7 /* SRFloatView-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		44D4CD7927C3473B00950C20 /* SRFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4CD7727C3473B00950C20 /* SRFloatView.h */; };
-		44D4CD7A27C3473B00950C20 /* SRFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4CD7827C3473B00950C20 /* SRFloatView.m */; };
+		44D4CD8227C4D6CA00950C20 /* SRFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D4CD7F27C4D6CA00950C20 /* SRFloatView.h */; };
+		44D4CD8327C4D6CA00950C20 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 44D4CD8027C4D6CA00950C20 /* .gitkeep */; };
+		44D4CD8427C4D6CA00950C20 /* SRFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D4CD8127C4D6CA00950C20 /* SRFloatView.m */; };
 		47935F583AB678A947016AC142BBAABC /* Pods-SRFloatView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A10A900D013E478E59E5EA8A6D7F5 /* Pods-SRFloatView_Tests-dummy.m */; };
 		5F5FE2FBA2799EF079FDC5707B51AA5B /* Pods-SRFloatView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FDAC336A1A79017258C94F3074C01F /* Pods-SRFloatView_Example-dummy.m */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
@@ -80,8 +81,9 @@
 		3C1857EBAC752D6ED9D6E33F537F6E54 /* Pods-SRFloatView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SRFloatView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4204A929BD83555E3F391B4AA7A5295E /* Pods-SRFloatView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SRFloatView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		44D4CD7727C3473B00950C20 /* SRFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRFloatView.h; sourceTree = "<group>"; };
-		44D4CD7827C3473B00950C20 /* SRFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRFloatView.m; sourceTree = "<group>"; };
+		44D4CD7F27C4D6CA00950C20 /* SRFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRFloatView.h; sourceTree = "<group>"; };
+		44D4CD8027C4D6CA00950C20 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		44D4CD8127C4D6CA00950C20 /* SRFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRFloatView.m; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4651E041AD1D10217C533773B3CF2D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4941288E3217BC9BBE8F15E562F50726 /* Pods_SRFloatView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SRFloatView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +229,17 @@
 			path = "Example/Pods/Target Support Files/SRFloatView";
 			sourceTree = "<group>";
 		};
+		44D4CD7E27C4D6CA00950C20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44D4CD7F27C4D6CA00950C20 /* SRFloatView.h */,
+				44D4CD8027C4D6CA00950C20 /* .gitkeep */,
+				44D4CD8127C4D6CA00950C20 /* SRFloatView.m */,
+			);
+			name = Classes;
+			path = SRFloatView/Classes;
+			sourceTree = "<group>";
+		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,8 +353,7 @@
 		E8B7AF3217ABDCBB6944E09ACE88DE3F /* SRFloatView */ = {
 			isa = PBXGroup;
 			children = (
-				44D4CD7727C3473B00950C20 /* SRFloatView.h */,
-				44D4CD7827C3473B00950C20 /* SRFloatView.m */,
+				44D4CD7E27C4D6CA00950C20 /* Classes */,
 				1AC44CA599256CE08FB74FAA0931F463 /* Pod */,
 				2669F18490BB62B6D52EB91CF2701A15 /* Support Files */,
 			);
@@ -373,6 +385,7 @@
 				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
 				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				44D4CD8227C4D6CA00950C20 /* SRFloatView.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
 			);
@@ -383,7 +396,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				932FC78FC2583E42A7E88F1D0FBDFDA1 /* SRFloatView-umbrella.h in Headers */,
-				44D4CD7927C3473B00950C20 /* SRFloatView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +535,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D4CD8327C4D6CA00950C20 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +568,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D4CD7A27C3473B00950C20 /* SRFloatView.m in Sources */,
 				2F8D976439E496670DA3072CCCB83A8D /* SRFloatView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +584,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D4CD8427C4D6CA00950C20 /* SRFloatView.m in Sources */,
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
